@@ -14,16 +14,18 @@
 
 <body>
 
-    <div class="header-warper">
-        <header class="clearfix">
+    <section class="flex-container">
+        <header>
             <h1>Lucio Verane</h1>
-            <div>
-                <button onclick="window.open('index.html')">About</button>
-                <button onclick="window.open('portfolio.html')">Portfolio</button>
-                <button onclick="window.open('contact.html')">Contact</button>
-            </div>
         </header>
-    </div>
+        <nav>
+            <div>
+                <button onclick="location.href='index.html'">About</button>
+                <button onclick="location.href='portfolio.html'">Portfolio</button>
+                <button onclick="location.href='contact.html'">Contact</button>
+            </div>
+        </nav>
+    </section>
 
     <div class="outer-container">
 
@@ -60,7 +62,8 @@
         </div>
 
         <footer>
-            <i class="fab fa-github"></i>
+            <a href="https://github.com/"><i class="fab fa-github fa-3x"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-3x"></i></a>
         </footer>
         
     </div>
